@@ -10,4 +10,6 @@ public interface BeerService {
 
     BeerDto saveNewBeer(BeerDto beerDto);
     BeerDto updateBeer(UUID beerId, BeerDto beerDto);;
+
+    Object getById(UUID id, boolean b);
 }
